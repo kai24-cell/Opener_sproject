@@ -1,0 +1,15 @@
+{
+    "name": "C++ Crow Dev",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "vadimcn.vscode-lldb"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
