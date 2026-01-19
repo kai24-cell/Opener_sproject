@@ -1,0 +1,21 @@
+{
+  "name": "opener_sproject",
+  "version": "1.0.0",
+  "description": "文系の子とプロジェクトを制作してみる",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kai24-cell/Opener_sproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kai24-cell/Opener_sproject/issues"
+  },
+  "homepage": "https://github.com/kai24-cell/Opener_sproject#readme"
+}

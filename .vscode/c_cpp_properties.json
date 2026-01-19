@@ -1,17 +1,35 @@
 {
   "configurations": [
     {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include",
+        "/usr/local/include",
+        "/usr/include",
+        "/opt/homebrew/include"
+      ],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-arm64",
+      "compilerArgs": [
+        "-lpthread"
+      ]
+    },
+    {
       "name": "windows-gcc-x64",
       "includePath": [
         "${workspaceFolder}/**",
+        "${workspaceFolder}/include",
         "/usr/include"
       ],
       "compilerPath": "C:/Users/user/Documents/tool/w64devkit/bin/gcc.exe",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
       "intelliSenseMode": "windows-gcc-x64",
       "compilerArgs": [
-        ""
+        "-lpthread"
       ]
     }
   ],
