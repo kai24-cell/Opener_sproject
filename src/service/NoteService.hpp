@@ -15,8 +15,8 @@ struct NoteSummary {
 class NoteService {
 private:
     // ここに取得したAPIキーを貼る
-    const std::string api_key = "YOUR_API_KEY_HERE";
-
+    const char* key_env = std::getenv("GEMINI_API_KEY");
+    const std::string api_key = key_env ? key_env : "";
     // Macのシステムを使って通信する関数
     std::string call_gemini_api(const std::string& prompt) {
         // Gemini APIに送るためのcurlコマンドを組み立てる
