@@ -1,6 +1,7 @@
 #pragma once
 #include "../../include/crow_all.h"
 #include "../service/NoteService.hpp" // 作ったServiceを読み込む
+#include "../service/NoteSummary.hpp"
 
 class Controllers {
 private:
